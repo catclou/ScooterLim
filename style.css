@@ -1,0 +1,70 @@
+body {
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 55%;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header, img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 20%;
+}
+
+.title {
+  color: rgba(0,222,1,255);
+  text-align: center;
+  font-size: 120%;
+}
+
+nav {
+  background-color: rgba(0,222,1,255);
+  text-align: center;
+  padding: 10px;
+}
+
+section.scooter {
+  padding-top: 15px;
+  color: white;
+}
+
+.name {
+  display: block;
+  font-weight: bolder;
+}
+
+.description {
+  font-size: 80%;
+}
+
+.bar {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.first.bar {
+  width: 40%;
+  background-color: rgba(243,180,83,255);
+}
+
+.second.bar {
+  width: 60%;
+  background-color: rgba(0,222,1,255);
+}
+
+.third.bar {
+  width: 15%;
+  background-color: rgba(189,65,65,255);
+}
